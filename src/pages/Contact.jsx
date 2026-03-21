@@ -1,28 +1,4 @@
-// import React from "react";
-// import cover from "../assets/images/cover.jpg";
-// function Contact() {
-//   return (
-//     <nav>
-//       <div>
-//         <img
-//           src={cover}
-//           alt=""
-//           className="
-//       w-full         
-//       md:h-screen       
-//       h-[50vh]         
-//       object-cover
-//     "
-//       />
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default Contact;
-
-
-import cover from "../assets/images/cover.jpg";
+import cover from "../assets/images/p20.jpg";
 
 export default function Contact() {
   return (
@@ -44,25 +20,22 @@ export default function Contact() {
 
       {/* CONTACT FORM SECTION */}
       <section className="px-6 py-16 max-w-4xl mx-auto">
-
         {/* HEADING */}
         <h1 className="text-4xl md:text-5xl font-serif font-semibold text-center mb-6">
           Contact us
         </h1>
-
         {/* DESCRIPTION */}
         <p className="text-lg text-gray-700 leading-relaxed text-center mb-4">
           Please provide detailed information in the form below to help us tailor an accurate quote.
           We typically respond within 24 hours, but if it's urgent or you haven't heard from us,
           don't hesitate to reach out via the contact details below.
         </p>
-
         {/* EMAIL + PHONE */}
         <p className="text-center text-gray-900 font-medium">
           rudraClicks@gmail.com
         </p>
         <p className="text-center text-gray-900 font-medium mb-10">
-          +91 91548 39548 &nbsp;|&nbsp; +91 95732 01548
+          +91 91548 39548 &nbsp;|&nbsp; +91 99088 50542
         </p>
 
         {/* FORM */}

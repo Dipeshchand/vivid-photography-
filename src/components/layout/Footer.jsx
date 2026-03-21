@@ -32,19 +32,19 @@ export default function Footer() {
       </div>
 
           <div className="flex gap-4 justify-center mt-6 ">
-              <a href="https://www.instagram.com/rudraclicks?igsh=MXRmaWdjOWx2ZW05eg%3D%3D">
+              <a href="https://www.instagram.com/vividsnaps_1096/">
             <FaInstagram  size={25}/>
               </a>
-              <a href="https://www.youtube.com/@clicksbyrudra">
+              <a href="https://www.youtube.com/@vividsnaps2110">
             <FaYoutube   size={25}/>
               </a>
-              <a href="https://wa.me/918374659575">
+              <a href="https://wa.me/919908850542">
             <FaWhatsapp   size={25}/>
               </a>
           </div>
       {/* COPYRIGHT */}
       <div className="text-center text-gray-600 text-sm mt-10">
-        Copyright © 2025 Rudra Clicks.
+        Copyright © 2025 Vividsnaps.
       </div>
     </footer>
   );

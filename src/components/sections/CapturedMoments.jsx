@@ -6,19 +6,19 @@ export default function CapturedMoments() {
       id: 1, 
       name: "Akhilesh & Akshaya", 
       desc: "From snowy Kashmir to forever together — their story is one of quiet strength and deep love.",
-      image: "/images/couple1.jpg" 
+      image: "/images/p5.jpg" 
     },
     { 
       id: 2, 
       name: "Rahul & Priya", 
       desc: "A journey of friendship that blossomed into a beautiful forever.",
-      image: "/images/couple2.png" 
+      image: "/images/p11.jpg" 
     },
     { 
       id: 3, 
       name: "Arjun & Divya", 
       desc: "Two hearts, one rhythm — a love story told through unspoken words.",
-      image: "/images/couple3.jpg" 
+      image: "/images/p23.jpg" 
     },
   ];
 
@@ -27,7 +27,7 @@ export default function CapturedMoments() {
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-serif font-baskervville  mb-4">
+        <h2 className="text-4xl md:text-5xl font-serif font-baskervville  mb-4" style={{fontFamily:"font5"}}>
           Captured Moments
         </h2>
 

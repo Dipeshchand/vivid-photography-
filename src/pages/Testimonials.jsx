@@ -7,7 +7,7 @@ function VideoCard({ video }) {
 
   return (
     <div
-      className="relative rounded-xl overflow-hidden shadow-lg bg-[#F6F3EC] cursor-pointer group"
+      className="relative rounded-xl overflow-hidden shadow-lg bg-[#F6F3EC] cursor-pointer group mt-10"
       onClick={() => setPlay(true)}
     >
       {!play ? (

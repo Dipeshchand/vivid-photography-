@@ -10,8 +10,8 @@ export default function Navbar() {
   flex items-center justify-between">
       
       {/* Logo */}
-      <h1 className="text-2xl md:text-4xl font-bold font-[Cormorant_Garamond] tracking-wide">
-         Rudra Clicks
+      <h1 className="text-4xl md:text-3xl  font-[Cormorant_Garamond] tracking-wide" style={{fontFamily:"font1"}}>
+         Vividsnaps
       </h1>
       {/* font-serif font that changed */}
 
@@ -19,7 +19,7 @@ export default function Navbar() {
       <ul className="hidden md:flex gap-10 text-lg font-light">
         <Link to="/home" className="hover:opacity-70">Home</Link>
         <Link to="/about" className="hover:opacity-70">About</Link>
-        <Link to="/portfolio" className="hover:opacity-70">Portfolio</Link>
+        <Link to="/portfolio" className="hover:opacity-70">Gallery</Link>
         <Link to="/testimonials" className="hover:opacity-70">Wedding Films</Link>
         <Link to="/contact" className="hover:opacity-70">Contact Us</Link>
       </ul>

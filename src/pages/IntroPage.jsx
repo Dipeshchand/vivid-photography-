@@ -1,20 +1,20 @@
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../assets/images/07.png";
-import img2 from "../assets/images/cover.jpg";
-import img3 from "../assets/images/cover1.png";
-import img4 from "../assets/images/cover3.png";
-import img5 from "../assets/images/hero-bg.jpg.png";
-import img6 from "../assets/images/fifth.jpg";
-import img7 from "../assets/images/seventh.jpg";
+import img1 from "../assets/images/p12.jpg";
+import img2 from "../assets/images/p13.jpg";
+import img3 from "../assets/images/p14.jpg";
+import img4 from "../assets/images/p15.jpg";
+import img5 from "../assets/images/p16.jpg";
+import img6 from "../assets/images/p17.jpg";
+import img7 from "../assets/images/p20.jpg";
 //
-import img8 from "../assets/images/story-img-1.jpg";
-import img9 from "../assets/images/first.jpg";
-import img10 from "../assets/images/Second.jpg";
-import img11 from "../assets/images/Third.jpg";
-import img12 from "../assets/images/Fourth.jpg";
-import img13 from "../assets/images/story-img-2.jpg";
-import img14 from "../assets/images/sixth.jpg";
+import img8 from "../assets/images/p22.jpg";
+import img9 from "../assets/images/p23.jpg";
+import img10 from "../assets/images/p24.jpg";
+import img11 from "../assets/images/p25.jpg";
+import img12 from "../assets/images/p18.jpg";
+import img13 from "../assets/images/p26.jpg";
+import img14 from "../assets/images/p19.jpg";
 
 export default function IntroPage() {
   const navigate = useNavigate();
@@ -50,8 +50,8 @@ export default function IntroPage() {
                 className="flex items-center justify-center bg-[#DCCDC2]"
               >
                 <div className="text-center">
-                  <h1 className="text-3xl md:text-5xl font-baskervville mb-4">
-                    Rudra Clicks
+                  <h1 className="text-3xl md:text-5xl font-baskervville mb-4" style={{fontFamily:"font1"}}>
+                    Vividsnaps
                   </h1>  
                   <button 
                     onClick={() => navigate("/home")}
