@@ -1,20 +1,20 @@
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../assets/images/p12.jpg";
-import img2 from "../assets/images/p13.jpg";
-import img3 from "../assets/images/p14.jpg";
-import img4 from "../assets/images/p15.jpg";
-import img5 from "../assets/images/p16.jpg";
-import img6 from "../assets/images/p17.jpg";
-import img7 from "../assets/images/p20.jpg";
+import img1 from "../assets/images/I1.jpg"
+import img2 from "../assets/images/l2.jpg";
+import img3 from "../assets/images/l3.jpg";
+import img4 from "../assets/images/l4.jpg";
+import img5 from "../assets/images/p7.jpg";
+import img6 from "../assets/images/l6.jpg";
+import img7 from "../assets/images/l7.jpg";
 //
-import img8 from "../assets/images/p22.jpg";
-import img9 from "../assets/images/p23.jpg";
-import img10 from "../assets/images/p24.jpg";
-import img11 from "../assets/images/p25.jpg";
-import img12 from "../assets/images/p18.jpg";
-import img13 from "../assets/images/p26.jpg";
-import img14 from "../assets/images/p19.jpg";
+import img8 from "../assets/images/l8.jpg";
+import img9 from "../assets/images/l9.jpg";
+import img10 from "../assets/images/l10.jpg";
+import img11 from "../assets/images/l11.jpg";
+import img12 from "../assets/images/l12.jpg";
+import img13 from "../assets/images/l13.jpg";
+import img14 from "../assets/images/p18.jpg";
 
 export default function IntroPage() {
   const navigate = useNavigate();
@@ -51,7 +51,7 @@ export default function IntroPage() {
               >
                 <div className="text-center">
                   <h1 className="text-3xl md:text-5xl font-baskervville mb-4" style={{fontFamily:"font1"}}>
-                    Vividsnaps
+                    VSP
                   </h1>  
                   <button 
                     onClick={() => navigate("/home")}

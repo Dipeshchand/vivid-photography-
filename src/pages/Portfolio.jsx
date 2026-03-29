@@ -36,33 +36,29 @@ export default function Portfolio() {
   return (
     <div className="mt-32 ">
       <div className="fixed right-4  top-1/4  z-50 flex flex-col gap-4 mt-60">
-
         <a
-          href="https://wa.me/918108569630"
+          href="https://wa.me/919908850542"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         >
           <FaWhatsapp size={22} />
         </a>
-
         <a
-          href="https://www.instagram.com/_aestheticmoments/"
+          href="https://www.instagram.com/vividsnaps_1096/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-pink-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         >
           <FaInstagram size={22} />
         </a>
-
         <a
-          href="tel:+918108569630"
+          href="tel:+919908850542"
           className="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         >
           <FaPhoneAlt size={20} />
         </a>
       </div>
-
       {/* Heading */}
       <div className="flex justify-center mb-10">
         <span className="relative text-3xl font-semibold" style={{ fontFamily: "Session2" }}>
@@ -70,7 +66,6 @@ export default function Portfolio() {
           <span className="absolute left-0 -bottom-2 h-[3px] w-full bg-gradient-to-r  to-red-400"></span>
         </span>
       </div>
-
       {/* Masonry Grid */}
       <div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 [column-gap:0px] ">
         {images.map((img, i) => (

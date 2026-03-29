@@ -6,9 +6,12 @@ export default function Navbar() {
 
   return (
     <nav className="absolute top-0 left-0 w-full px-6 py-3 md:px-10 md:py-4 z-50
-  bg-white/40 backdrop-blur-2xl border-b border-white/20
+  bg-white/10 backdrop-blur-2xl border-b border-white/10
   flex items-center justify-between">
-      
+
+{/* absolute top-0 left-0 w-full px-6 py-3 md:px-10 md:py-4 z-50 
+flex items-center justify-between
+*/}
       {/* Logo */}
       <h1 className="text-4xl md:text-3xl  font-[Cormorant_Garamond] tracking-wide" style={{fontFamily:"font1"}}>
          Vividsnaps
