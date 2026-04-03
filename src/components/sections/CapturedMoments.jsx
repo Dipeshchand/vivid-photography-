@@ -1,24 +1,28 @@
 import React from "react";
+import img1 from "../../assets/images/new1.jpg";
+import img2 from "../../assets/images/new2.jpg";
+import img3 from "../../assets/images/new3.jpg";
+
 
 export default function CapturedMoments() {
   const couples = [
     { 
       id: 1, 
-      name: "Akhilesh & Akshaya", 
-      desc: "From snowy Kashmir to forever together — their story is one of quiet strength and deep love.",
-      image: "/images/p5.jpg" 
+      name: "Prabhu & Swapna", 
+      desc: "Two souls, one journey bound by love, defined by moments.",
+      image: img1  
     },
     { 
       id: 2, 
-      name: "Rahul & Priya", 
-      desc: "A journey of friendship that blossomed into a beautiful forever.",
-      image: "/images/p11.jpg" 
+      name: "Hemanth & Sushmitha", 
+      desc: "A story of effortless love, where every moment feels meant to be.",
+      image: img2 
     },
     { 
       id: 3, 
-      name: "Arjun & Divya", 
-      desc: "Two hearts, one rhythm — a love story told through unspoken words.",
-      image: "/images/p23.jpg" 
+      name: "Shubhi & Jay", 
+      desc: "A quiet bond that speaks through every shared galnce.",
+      image: img3
     },
   ];
 

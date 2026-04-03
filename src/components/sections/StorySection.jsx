@@ -10,23 +10,17 @@ export default function StorySection() {
         {/* LEFT SIDE TEXT */}
         <div>
           <h2 className="text-3xl md:text-5xl  italic mb-6" style={{fontFamily:"font1"}}>
-            Stories in Still Frames
+            The Art of Remembring
           </h2>
 
           <p className="text-base md:text-lg leading-relaxed mb-4  text-[#4B463E]s" style={{fontFamily:""}}>
-            A wedding is more than a celebration — it's a story of love, a
-            journey of two souls becoming one. From breathtaking venues to
-            intricate jewellery, joyful guests, and heartfelt vows, every detail
-            matters. But what if it could never be recorded?
+            A wedding is more than an occasion - it an experience shaped by elegance, emotion, and timeless beauty.
+            Every detail, from delicate textures to fleeting expressions, deserves to be preserved with purpose and artistry
           </p>
 
           <p className="text-base md:text-lg leading-relaxed text-[#4B463E]">
-            At Rudra Clicks, we believe in turning fleeting moments into lasting
-            memories. We create fiction out of reality — crafting timeless,
-            editorial portraits and aesthetic visuals that go beyond the
-            surface. Through each frame, we strive to capture the emotion,
-            connection, and true essence of your special day, so your love story
-            lives on, beautifully told.
+            At Vivid Snaps, we capture with intentin, Beyond documentation, we craft refined visual narratives that feel immersive and enduring. Through a careful balance of light, composition, and authenticity, we create imagery that rises above trends
+            and embodies true spohistication.Each frame is designed not only to show your day - but to preserve how it felt, in its most elevated form
           </p>
         </div>
 

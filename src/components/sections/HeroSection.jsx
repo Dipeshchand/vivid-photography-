@@ -1,4 +1,4 @@
-import bg from "../../assets/images/p2.jpg";
+import bg from "../../assets/images/Opening.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
