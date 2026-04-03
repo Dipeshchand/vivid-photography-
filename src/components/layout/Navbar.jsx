@@ -22,6 +22,7 @@ flex items-center justify-between
       <ul className="hidden md:flex gap-10 text-lg font-light">
         <Link to="/home" className="hover:opacity-70">Home</Link>
         <Link to="/portfolio" className="hover:opacity-70">Gallery</Link>
+        <Link to="/portfolioUpload" className="hover:opacity-70">Portfolio</Link>
         <Link to="/testimonialsGallery" className="hover:opacity-70">Testimonials</Link>
         <Link to="/testimonials" className="hover:opacity-70">Wedding Films</Link>
         <Link to="/contact" className="hover:opacity-70">Contact Us</Link>
@@ -49,6 +50,7 @@ flex items-center justify-between
     <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
     <Link to="/testimonialsGallery" onClick={()=>setMenuOpen(false)}>Testimonials</Link>
     <Link to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</Link>
+    <Link to="/portfolioUpload" onClick={()=>setMenuOpen(false)}>Portfolio</Link>
     <Link to="/testimonials" onClick={() => setMenuOpen(false)}>Wedding Films</Link>
     <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
   </ul>

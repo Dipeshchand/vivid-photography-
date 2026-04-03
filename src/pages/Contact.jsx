@@ -32,10 +32,10 @@ export default function Contact() {
         </p>
         {/* EMAIL + PHONE */}
         <p className="text-center text-gray-900 font-medium">
-          rudraClicks@gmail.com
+          vividsnaps141@gmail.com
         </p>
         <p className="text-center text-gray-900 font-medium mb-10">
-          +91 91548 39548 &nbsp;|&nbsp; +91 99088 50542
+          +91 9908850542 &nbsp;|&nbsp; 
         </p>
 
         {/* FORM */}
