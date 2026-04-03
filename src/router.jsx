@@ -1,13 +1,13 @@
-import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
-import IntroPage from "./pages/IntroPage";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Testimonials from "./pages/Testimonials";
-import Contact from "./pages/Contact";
-import TestimonialsGallery from "./pages/TestimonialGallery"
-import PortfolioUpload from "./pages/PortfolioUpload";
+// import { createBrowserRouter } from "react-router-dom";
+// import App from "./App";
+// import IntroPage from "./pages/IntroPage";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Portfolio from "./pages/Portfolio";
+// import Testimonials from "./pages/Testimonials";
+// import Contact from "./pages/Contact";
+// import TestimonialsGallery from "./pages/TestimonialGallery"
+// import PortfolioUpload from "./pages/PortfolioUpload";
 
 
 // const router = createBrowserRouter([
@@ -36,12 +36,30 @@ import PortfolioUpload from "./pages/PortfolioUpload";
 // export default router;
 
 
+import { createBrowserRouter } from "react-router-dom";
+import App from "./App";
+
+import IntroPage from "./pages/IntroPage";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
+import TestimonialsGallery from "./pages/TestimonialGallery"; // ✅ fix name
+import PortfolioUpload from "./pages/PortfolioUpload";
+
 const router = createBrowserRouter([
+  // ✅ Intro (NO Navbar/Footer)
   {
     path: "/",
-    element: <App />, // Layout (Navbar + Outlet + Footer)
+    element: <IntroPage />,
+  },
+
+  // ✅ Main App (WITH Navbar/Footer)
+  {
+    path: "/",   // 🔥 IMPORTANT CHANGE
+    element: <App />,
     children: [
-      { path: "/", element: <IntroPage /> }, // Landing page
       { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
@@ -50,7 +68,6 @@ const router = createBrowserRouter([
       { path: "portfolioUpload", element: <PortfolioUpload /> },
       { path: "contact", element: <Contact /> },
 
-      // ✅ fallback (prevents crash)
       { path: "*", element: <h1>404 Page Not Found</h1> },
     ],
   },
