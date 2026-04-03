@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import TestimonialsGallery from "./pages/TestimonialGallery"
+
 
 const router = createBrowserRouter([
   // 1️⃣ INTRO PAGE
@@ -23,6 +25,7 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "testimonials", element: <Testimonials /> },
+      {path: "testimonialsGallery", element: <TestimonialsGallery/>},
       { path: "contact", element: <Contact /> },
     ],
   },
