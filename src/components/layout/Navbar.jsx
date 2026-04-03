@@ -50,7 +50,7 @@ flex items-center justify-between
     <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
     <Link to="/testimonialsGallery" onClick={()=>setMenuOpen(false)}>Testimonials</Link>
     <Link to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</Link>
-    <Link to="/portfolioUpload" onClick={()=>setMenuOpen(false)}>Portfolio</Link>
+    <Link to="/portfolioUpload" onClick={()=>setMenuOpen(false)}>Gallery</Link>
     <Link to="/testimonials" onClick={() => setMenuOpen(false)}>Wedding Films</Link>
     <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
   </ul>
