@@ -13,20 +13,19 @@ export default function Navbar() {
 flex items-center justify-between
 */}
       {/* Logo */}
-      <h1 className="text-4xl md:text-3xl  font-[Cormorant_Garamond] tracking-wide" style={{fontFamily:"font1"}}>
+      <h1 className="text-4xl md:text-3xl font-[Cormorant_Garamond] tracking-wide" style={{fontFamily:""}}>
          Vividsnaps
       </h1>
       {/* font-serif font that changed */}
-
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-10 text-lg font-light">
-        <Link to="/home" className="hover:opacity-70">Home</Link>
-        <Link to="/portfolio" className="hover:opacity-70">Gallery</Link>
-        <Link to="/portfolioUpload" className="hover:opacity-70">Portfolio</Link>
-        <Link to="/testimonialsGallery" className="hover:opacity-70">Testimonials</Link>
-        <Link to="/testimonials" className="hover:opacity-70">Wedding Films</Link>
-        <Link to="/contact" className="hover:opacity-70">Contact Us</Link>
-        <Link to="/about" className="hover:opacity-70">About</Link>
+      <ul className="hidden md:flex gap-10 text-xl ">
+        <Link to="/home" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Home</Link>
+        <Link to="/portfolio" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Gallery</Link>
+        <Link to="/portfolioUpload" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Portfolio</Link>
+        <Link to="/testimonialsGallery" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Testimonials</Link>
+        <Link to="/testimonials" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Wedding Films</Link>
+        <Link to="/contact" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>Contact Us</Link>
+        <Link to="/about" className="hover:opacity-70" style={{fontFamily:"Seasons1"}}>About</Link>
       </ul>
 
       {/* Mobile Hamburger */}

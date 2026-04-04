@@ -20,7 +20,7 @@ export default function CapturedMoments() {
     },
     { 
       id: 3, 
-      name: "Shubhi & Jay", 
+      name: "Prabhu & Swapna", 
       desc: "A quiet bond that speaks through every shared galnce.",
       image: img3
     },
@@ -31,12 +31,12 @@ export default function CapturedMoments() {
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-serif font-baskervville  mb-4" style={{fontFamily:"font5"}}>
+        <h2 className="text-4xl md:text-5xl  mb-4" style={{fontFamily:"Seasons7"}}>
           Captured Moments
         </h2>
 
         {/* Subtitle */}
-        <p className="text-lg md:text-xl text-gray-700 mb-12 font-baskervville ">
+        <p className="text-lg md:text-xl text-gray-700 mb-12 " style={{fontFamily:"Seasons7"}}>
           Click on each couple to watch their love story unfold.
         </p>
 

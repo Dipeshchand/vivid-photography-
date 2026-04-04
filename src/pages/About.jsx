@@ -1,57 +1,5 @@
-// import cover1 from "../assets/images/cover1.png";
-// export default function About() {
-//   return (
-//     <section className="w-full bg-[#F7F4ED]   py-20 px-6">
-//       <div className="max-w-5xl mx-auto text-center">
-//         {/* Image + Text (Side-by-Side on Desktop) */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center mt-10">
-//           {/* Photographer / Studio Image */}
-//           <div className="overflow-hidden rounded-3xl shadow-md">
-//             <img
-//               src="/images/main.jpeg"
-//               alt="About WeFoundALoveStory"
-//               className="w-full h-[400px] object-cover "
-//             />
-//           </div>
-
-//           {/* About Content */}
-//           <div className="text-left">
-//             <p className="font-light">Hello there, I'm Rudahra</p>
-//             <br />
-//             <p className="text-gray-700 leading-relaxed text-lg mb-6 ">
-//               A fine art luxury wedding photographer, with a love of telling
-//               stories full of simplicity and emotion. Heavily influenced by the
-//               glory of Indian culture and its people, I love to create stylised
-//               wedding portraits & focus on the details of the day.
-//             </p>
-
-//             <p className="text-gray-700 leading-relaxed text-lg">
-//               There are only few times in life that are bigger or more
-//               meaningful than weddings. And we get to witness them. So, nothing
-//               brings me more joy than witnessing love over and over again. My
-//               only hope is one day your children or grandchildren discover your
-//               wedding album and you pass on the story of your love and special
-//               day through it.
-//             </p>
-//           </div>
-//         </div>
-//         <p
-//           className="text-base md:text-lg lg:text-xl mt-10 font-serif italic"
-//           style={{ fontFamily: "Baskervville, serif" }}
-//         >
-//           So I'm extremely delighted we found your love story!
-//         </p>
-//       </div>
-//       <div className="mt-20">
-//         <img src={cover1} />
-//       </div>
-//     </section>
-//   );
-// }
-
-
 import React from "react";
-// import founder from "../assets/image/founder.jpeg";
+// import founder from "../assets/images/founderV.jpeg"
 
 export default function About() {
   return (
@@ -71,11 +19,11 @@ export default function About() {
                   shadow-2xl 
                   ring-4 ring-white"
           >
-            {/* <img
-              src={founder}
-              alt="Founder"
+            <img
+              src ="/images/founderV.jpeg"
+              alt="founder"
               className="w-full h-full object-cover"
-            /> */}
+            />
 
             {/* subtle gradient for depth */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
@@ -88,7 +36,7 @@ export default function About() {
             style={{ fontFamily: "light1" }}
             className="text-xl md:text-2xl leading-snug"
           >
-            Ankit Agrawal <br />
+             P Abhishek <br />
             <span className="text-base md:text-lg text-gray-600">
               Founder of Vividsnaps
             </span>
@@ -102,7 +50,7 @@ export default function About() {
           <p className="mt-4 text-sm md:text-base">
             The founder brings{" "}
             <span className="text-red-700 font-semibold">
-              over 8 years of professional experience
+              over 20+  years of professional experience & 200+ weddings 
             </span>{" "}
             in the photography and wedding film industry, having worked with{" "}
             <span className="text-red-700 font-semibold">

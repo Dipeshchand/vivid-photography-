@@ -13,7 +13,7 @@ export default function StorySection() {
             The Art of Remembring
           </h2>
 
-          <p className="text-base md:text-lg leading-relaxed mb-4  text-[#4B463E]s" style={{fontFamily:""}}>
+          <p className="text-base md:text-lg leading-relaxed mb-4   text-[#4B463E]" style={{fontFamily:""}}>
             A wedding is more than an occasion - it an experience shaped by elegance, emotion, and timeless beauty.
             Every detail, from delicate textures to fleeting expressions, deserves to be preserved with purpose and artistry
           </p>
