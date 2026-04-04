@@ -67,7 +67,6 @@ const router = createBrowserRouter([
       { path: "testimonialsGallery", element: <TestimonialsGallery /> },
       { path: "portfolioUpload", element: <PortfolioUpload /> },
       { path: "contact", element: <Contact /> },
-
       { path: "*", element: <h1>404 Page Not Found</h1> },
     ],
   },
