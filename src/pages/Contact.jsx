@@ -1,5 +1,6 @@
 import cover from "../assets/images/p20.jpg";
 
+
 export default function Contact() {
   return (
     <div className="w-full bg-[#F6F3EC]">
