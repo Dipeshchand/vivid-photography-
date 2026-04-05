@@ -67,11 +67,11 @@ export default function About() {
           <p className="mt-4 text-sm md:text-base">
             After gaining extensive industry exposure, he took the next step and{" "}
             <span className="text-red-700 font-semibold">
-              founded Aesthetic Moments,
+              founded Vividsnaps,
             </span>{" "}
             which he has been leading{" "}
             <span className="underline underline-offset-4">
-              successfully for the last 7 years.
+              successfully for the last 8+ years.
             </span>
           </p>
 

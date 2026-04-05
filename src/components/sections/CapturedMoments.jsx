@@ -20,7 +20,7 @@ export default function CapturedMoments() {
     },
     { 
       id: 3, 
-      name: "Prabhu & Swapna", 
+      name: "Shubhi & Jay", 
       desc: "A quiet bond that speaks through every shared galnce.",
       image: img3
     },
