@@ -50,7 +50,7 @@ export default function IntroPage() {
                 className="flex items-center justify-center bg-[#DCCDC2]"
               >
                 <div className="text-center">
-                  <h1 className="text-3xl md:text-5xl  mb-4" style={{fontFamily:"Seasons7"}}>
+                  <h1 className="text-3xl md:text-5xl  mb-4 font-[Cormorant_Garamond]" >
                     VSP
                   </h1>  
                   <button 

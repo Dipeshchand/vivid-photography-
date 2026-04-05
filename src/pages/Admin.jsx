@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "https://vivid-photography.onrender.com";
+const API = "http://localhost:5173";
 
 /* ================= AUTH HEADER ================= */
 function authHeader() {
