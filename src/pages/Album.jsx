@@ -63,7 +63,7 @@ export default function Album() {
     async function load() {
       try {
         // Fetch albums
-        const albums = await fetch("http://localhost:5000/albums/public")
+        const albums = await fetch("https://vivid-photography.onrender.com/albums/public")
           .then((r) => r.json());
 
         console.log("Slug:", slug);
