@@ -77,7 +77,7 @@ export default function Album() {
 
         // Fetch photos
         const images = await fetch(
-          `http://localhost:5000/upload/album/${found._id}`
+          `https://vivid-photography.onrender.com/upload/album/${found._id}`
         ).then((r) => r.json());
 
         setPhotos(images);
