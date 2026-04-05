@@ -50,7 +50,7 @@ export default function About() {
           <p className="mt-4 text-sm md:text-base">
             The founder brings{" "}
             <span className="text-red-700 font-semibold">
-              over 20+  years of professional experience & 200+ weddings 
+              over 7+  years of professional experience & 200+ weddings 
             </span>{" "}
             in the photography and wedding film industry, having worked with{" "}
             <span className="text-red-700 font-semibold">
