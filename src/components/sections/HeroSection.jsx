@@ -1,5 +1,5 @@
 // import bg from "../../assets/images/couplewed.jpeg"
-import bg from "/images/couplewed.jpeg"
+import bg from "../../assets/images/newhome.jpeg"
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function HeroSection() {
   return (
     <section
-      className=" h-screen w-full bg-contain bg-center bg-no-repeat relative"
+      className=" h-screen w-full bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div>

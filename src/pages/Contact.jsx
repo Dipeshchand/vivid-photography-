@@ -1,4 +1,4 @@
-import cover from "../assets/images/p20.jpg";
+import cover from "../assets/images/aboutnew.jpeg";
 
 
 export default function Contact() {
