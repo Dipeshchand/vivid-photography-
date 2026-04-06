@@ -36,7 +36,7 @@ export default function About() {
             style={{ fontFamily: "light1" }}
             className="text-xl md:text-2xl leading-snug"
           >
-             P Abhishek <br />
+             Hello I am P Abhishek <br />
             <span className="text-base md:text-lg text-gray-600">
               Founder of Vividsnaps
             </span>
@@ -52,19 +52,18 @@ export default function About() {
             <span className="text-red-700 font-semibold">
               over 7+  years of professional experience & 200+ weddings 
             </span>{" "}
-            in the photography and wedding film industry, having worked with{" "}
+           A fine art wedding photographer drawn to elegance, emotion, and timeless detail. Inspired by culture and light, I create refined imagery that feels effortless, intimate, and enduring{" "}
             <span className="text-red-700 font-semibold">
-              multiple reputed production houses and creative companies.
+              Weddings are a legacy of moments.
             </span>
           </p>
 
           <p className="mt-4 text-sm md:text-base">
-            During these years, he mastered every aspect of the craft — from
-            capturing raw emotions on wedding days to understanding client
-            expectations, team coordination, and premium production quality.
+           I focus on the subtle glances, quiet emotions, and thoughtful details that define your day—so years from now, your story is not only seen, but deeply felt.
+At Vivid Snaps, we preserve your story as timeless art.
           </p>
 
-          <p className="mt-4 text-sm md:text-base">
+          {/* <p className="mt-4 text-sm md:text-base">
             After gaining extensive industry exposure, he took the next step and{" "}
             <span className="text-red-700 font-semibold">
               founded Vividsnaps,
@@ -93,7 +92,7 @@ export default function About() {
             His leadership is rooted in one clear belief — every wedding is
             unique and deserves to be captured in a timeless, emotionally
             powerful way.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
