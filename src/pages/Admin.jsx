@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5173";
+const API = "http://localhost:5000";
 
 /* ================= AUTH HEADER ================= */
 function authHeader() {

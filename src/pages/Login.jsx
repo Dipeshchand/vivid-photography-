@@ -3,9 +3,9 @@ import { useState } from "react";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+// http://localhost:5173
   async function handleLogin() {
-    const res = await fetch("http://localhost:5173/auth/login", {
+    const res = await fetch("http://localhost:5000/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password })
