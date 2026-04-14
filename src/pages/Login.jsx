@@ -5,7 +5,7 @@ export default function Login() {
   const [password, setPassword] = useState("");
 // http://localhost:5173
   async function handleLogin() {
-    const res = await fetch("http://localhost:5000/auth/login", {
+    const res = await fetch("https://vivid-photography-1.onrender.com/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password })
