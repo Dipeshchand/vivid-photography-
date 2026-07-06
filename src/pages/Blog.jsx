@@ -7,6 +7,7 @@ function Blog() {
 
   useEffect(() => {
     axios
+    // https://vivid-photography-1.onrender.com
       .get("https://vivid-photography-1.onrender.com/api/blogs")
       .then((res) => setBlogs(res.data))
       .catch((err) => console.log(err));

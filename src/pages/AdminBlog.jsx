@@ -17,7 +17,7 @@ export default function AdminBlog() {
     }
   }, []);
 // http://localhost:5000
-
+// https://vivid-photography-1.onrender.com
   // 📥 Fetch blogs
   const fetchBlogs = async () => {
     try {
