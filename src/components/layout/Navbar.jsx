@@ -24,6 +24,7 @@ flex items-center justify-between
         <Link to="/portfolioUpload" className="hover:opacity-70">Portfolio</Link>
         <Link to="/testimonialsGallery" className="hover:opacity-70">Testimonials</Link>
         <Link to="/testimonials" className="hover:opacity-70">Wedding Films</Link>
+        <Link to="/blogs" className="hover:opacity-70">Blog</Link>
         <Link to="/contact" className="hover:opacity-70">Contact Us</Link>
         <Link to="/about" className="hover:opacity-70">About</Link>
       </ul>
@@ -51,6 +52,7 @@ flex items-center justify-between
     <Link to="/portfolio" onClick={() => setMenuOpen(false)}>Gallery</Link>
     <Link to="/portfolioUpload" onClick={()=>setMenuOpen(false)}>Portfolio</Link>
     <Link to="/testimonials" onClick={() => setMenuOpen(false)}>Wedding Films</Link>
+    <Link to="/blogs" onClick={() => setMenuOpen(false)}>Blog</Link>
     <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
   </ul>
 </div>

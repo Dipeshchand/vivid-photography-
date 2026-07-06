@@ -1,5 +1,5 @@
 // import bg from "../../assets/images/couplewed.jpeg"
-import bg from "../../assets/images/newhome.jpeg"
+import bg from "../../assets/images/new1home.jpeg"
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";

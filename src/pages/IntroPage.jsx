@@ -1,20 +1,21 @@
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../assets/images/I1.jpg"
-import img2 from "../assets/images/l2.jpg";
-import img3 from "../assets/images/l3.jpg";
-import img4 from "../assets/images/l4.jpg";
-import img5 from "../assets/images/p7.jpg";
-import img6 from "../assets/images/l6.jpg";
-import img7 from "../assets/images/l7.jpg";
+import img1 from "../assets/images/newnewI1.webp"
+import img2 from "../assets/images/newl2.webp";
+import img3 from "../assets/images/newl3.webp";
+import img4 from "../assets/images/newl4.webp";
+import img5 from "../assets/images/newl7.webp";
+// 
+import img6 from "../assets/images/newl6.avif";
+import img7 from "../assets/images/newl7.webp";
 //
-import img8 from "../assets/images/l8.jpg";
-import img9 from "../assets/images/l9.jpg";
-import img10 from "../assets/images/l10.jpg";
-import img11 from "../assets/images/l11.jpg";
-import img12 from "../assets/images/l12.jpg";
-import img13 from "../assets/images/l13.jpg";
-import img14 from "../assets/images/p18.jpg";
+import img8 from "../assets/images/newl8.webp";
+import img9 from "../assets/images/newl9.avif";
+import img10 from "../assets/images/newl10.webp";
+import img11 from "../assets/images/newl11.avif";
+import img12 from "../assets/images/newl12.avif";
+import img13 from "../assets/images/newl13.avif";
+import img14 from "../assets/images/newp18.avif";
 
 export default function IntroPage() {
   const navigate = useNavigate();
